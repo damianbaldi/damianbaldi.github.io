@@ -15,12 +15,12 @@ body {
 
 
 body {
-    background-color: lightblue;
+    background-color: lightgrey;
   }
 
 
 p {
-    color:red;
+    color:black;
     width: 300px;
 }
 
