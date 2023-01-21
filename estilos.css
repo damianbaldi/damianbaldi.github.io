@@ -54,7 +54,7 @@ body {
     width: 10%;
     text-align: left;
     height: 600px;
-    background-color: #a19316;
+    background-color: #EFF8FB;
 }
 
 .columnCent2 {
@@ -70,13 +70,13 @@ body {
     width: 25%;
     text-align: center;
     height: 600px;
-    background-color:#2187ca;
+    background-color:#EFF8FB;
 }
 
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     margin-left: 25px;
     margin-top: 0px;
@@ -86,7 +86,7 @@ h1 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     margin-left: 25px;
     margin-top: 0px;
@@ -145,6 +145,8 @@ hr.solid {
     margin: 0;
     display:inline-block;
     height: 18px;
-    float:left;
+    padding-left: 25px;
+    padding-right: 5px;
+    float: left;
 
 }
