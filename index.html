@@ -6,7 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Prueba GitHut Pages</title>
 	<link rel="stylesheet" href="estilos.css">
+	<script languague="javascript">
+        function mostrar() {
+            div = document.getElementById('flotante');
+            div.style.display = '';
+        }
+
+        function cerrar() {
+            div = document.getElementById('flotante');
+            div.style.display = 'none';
+        }
+</script>
 </head>
+
 <style>
 	.vl {
 	  border-left: 3px solid blue;
@@ -83,9 +95,10 @@
 		<dd><li><p2>NOC operator</p2></li></dd>
 		<dd><li><p2>Installation, administration and maintenance of Avaya PBX</p2></li></dd>
 		<dd><li><p2>Maintenance within the energy area</p2></li></dd>
-
+		
 
 		<h3>LANGUAGES</h3>
+		
 
 		<dd><li><p2>Spanish (Native)</p2></li></dd>
 		<dd><li><p2>English (Full professional proficiency)</p2></li></dd>
@@ -94,20 +107,37 @@
 		</br>
 		</br>
 		</br>
-	
-		<button class="btn info">Courses</button>
-
 		</br>
+
+
+		<h3><a href="javascript:mostrar();">Courses</a></h3>
+		<div id="flotante" style="display:none;">
+     	
+     	
+		 <img src='img/udemy.jpg' class='icon' ><dd><p2><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4651abfb-9f38-4389-a736-6d25314f38c6.pdf">Docker de Principiante a Experto</p2></dd></a>
+		 <img src='img/redhat.jpg' class='icon'><dd><p2><a href="https://drive.google.com/file/d/1PJswE4EZOZp1cEIsTCexrDRliMquamG5/view?usp=share_link">Open Practice for your DevOps Journey</p2></dd></a>
+		
+		
+		</br>
+		</br>
+		</br>
+
+		 <div id="close"><h3><a href="javascript:cerrar();">Close</a></h3></div>
+		</div>
+		
+	
 		</br>
 		</br>
 		</br>
 		</div>
-	
+
+			
 	<div class="columnDer2">
 
-
+	
 	</div>
 
+	
 	<!-- fin segundo cuerpo -->
 
 </body>

@@ -8,25 +8,19 @@ body {
 }
 
 
-/**
-   en este caso "p" especifica el 
-   color rojo y obvia el azul anterior
-*/
-
 
 body {
     background-color: #EFF8FB;
 }
 
 
-/* Create 3 columnas */
 
 .columnIzq {
     float: left;
     width: 2%;
     text-align: left;
     padding-top: 30px;
-    height: 230px; /* Should be removed. Only for demonstration */
+    height: 230px; 
     background-color: #EFF8FB;
 }
 
@@ -35,7 +29,7 @@ body {
     width: 68%;
     text-align: left;
     padding-top: 30px;
-    height: 230px; /* Should be removed. Only for demonstration */
+    height: 230px; 
     background-color: #EFF8FB;
 }
 
@@ -44,7 +38,7 @@ body {
     width: 30%;
     text-align: center;
     padding-top: 30px;
-    height: 230px; /* Should be removed. Only for demonstration */
+    height: 230px; 
     background-color:#EFF8FB;
 }
 
@@ -167,28 +161,5 @@ hr.solid {
     height: 20px;
     float:left;
 
-}
-
-
-
-.btn {
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 14px 38px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-/* Blue */
-.info {
-    border-color: #2196F3;
-    color: dodgerblue
-}
-
-
-.info:hover {
-    background: #2196F3;
-    color: white;
 }
 
