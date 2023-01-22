@@ -53,7 +53,7 @@ body {
 
 .columnCent2 {
     float: left;
-    width: 80%;
+    width: 90%;
     text-align: left;
     height: 600px;
     background-color: #EFF8FB;
@@ -61,7 +61,7 @@ body {
 
 .columnDer2 {
     float: left;
-    width: 15%;
+    width: 5%;
     text-align: center;
     height: 600px;
     background-color:#EFF8FB;
