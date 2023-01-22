@@ -17,7 +17,7 @@ body {
 
 .columnIzq {
     float: left;
-    width: 2%;
+    width: 5%;
     text-align: left;
     padding-top: 30px;
     height: 230px; 
@@ -26,7 +26,7 @@ body {
 
 .columnCent {
     float: left;
-    width: 68%;
+    width: 65%;
     text-align: left;
     padding-top: 30px;
     height: 230px; 
@@ -45,7 +45,7 @@ body {
 
 .columnIzq2 {
     float: left;
-    width: 2%;
+    width: 5%;
     text-align: left;
     height: 600px;
     background-color: #EFF8FB;
