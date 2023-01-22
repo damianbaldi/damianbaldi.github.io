@@ -23,7 +23,7 @@ body {
 
 .columnIzq {
     float: left;
-    width: 10%;
+    width: 5%;
     text-align: left;
     padding-top: 30px;
     height: 230px; /* Should be removed. Only for demonstration */
@@ -32,7 +32,7 @@ body {
 
 .columnCent {
     float: left;
-    width: 65%;
+    width: 50%;
     text-align: left;
     padding-top: 30px;
     height: 230px; /* Should be removed. Only for demonstration */
@@ -41,7 +41,7 @@ body {
 
 .columnDer {
     float: left;
-    width: 25%;
+    width: 45%;
     text-align: center;
     padding-top: 30px;
     height: 230px; /* Should be removed. Only for demonstration */
@@ -51,7 +51,7 @@ body {
 
 .columnIzq2 {
     float: left;
-    width: 10%;
+    width: 5%;
     text-align: left;
     height: 600px;
     background-color: #EFF8FB;
@@ -59,7 +59,7 @@ body {
 
 .columnCent2 {
     float: left;
-    width: 65%;
+    width: 80%;
     text-align: left;
     height: 600px;
     background-color: #EFF8FB;
@@ -67,7 +67,7 @@ body {
 
 .columnDer2 {
     float: left;
-    width: 25%;
+    width: 15%;
     text-align: center;
     height: 600px;
     background-color:#EFF8FB;
@@ -143,10 +143,19 @@ hr.solid {
 
 .icon {
     margin: 0;
-    display:inline-block;
+    /*display:inline-block;*/
     height: 18px;
     padding-left: 25px;
     padding-right: 5px;
     float: left;
 
+}
+
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-color:#EFF8FB;
 }
